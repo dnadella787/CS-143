@@ -1,0 +1,1 @@
+db.laureates.find({ "givenName.en" : "Marie" }, { "id" : 1, "_id" : 0 })
